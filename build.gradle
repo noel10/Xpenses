@@ -65,6 +65,8 @@ dependencies {
     testCompile "org.grails:grails-web-testing-support"
 
     compile 'org.grails.plugins:spring-security-rest:3.0.0.RC1'
+    runtime 'org.grails.plugins:grails-console:2.1.1'
+    compile "org.grails.plugins:gsp"  //enable gsp for console
 }
 
 bootRun {
